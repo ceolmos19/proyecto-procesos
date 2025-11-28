@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual de Mantenimiento - Mi Moto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+    }
+    header {
+      background-color: #05436e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background-color: #37aee1;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav button {
+      background: none;
+      border: none;
+      color: white;
+      padding: 15px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    nav button:hover {
+      background-color: #987626;
+    }
+    section {
+      display: none;
+      padding: 20px;
+      background-color: white;
+      max-width: 800px;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    section.active {
+      display: block;
+    }
+    h2 {
+      color: #af451e;
+      border-bottom: 2px solid #af5d1e;
+      padding-bottom: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #0f070b;
+      padding: 8px;
+    }
+    th {
+      background-color: #8a9511;
+      color: white;
+    }
+    img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Plan de Mantenimiento</h1>
+  </header>
+
+  <nav>
+    <button onclick="mostrar('inicio')">Inicio</button>
+    <button onclick="mostrar('empresa')">Empresa</button>
+    <button onclick="mostrar('levantamiento de maquinaria')">Levantamiento de Maquinaria</button>
+    <button onclick="mostrar('mantenimiento preventivo')">Mantenimiento Preventivo</button>
+    <button onclick="mostrar('mantenimiento predictivo')">Mantenimiento Predictivo</button>
+    <button onclick="mostrar('mantenimiento correctivo')">Mantenimiento Correctivo</button>
+    <button onclick="mostrar('calendario')">Calendario</button>
+    <button onclick="mostrar('Registro')">Registro</button>
+  </nav>
+
+  <section id="inicio" class="active">
+    <h2>Información general</h2>
+    <img src="Mimoto.jfif" alt="Mi moto" style="display:block; margin:auto; width:470px;">
+    <p><strong>Bienvenido</strong> </p>
+    <p><strong> </strong> La Pulsar N250 es una motocicleta deportiva diseñada para ofrecer una conducción ágil, eficiente y confiable. Gracias a su motor,es ideal para tanto para recorridos urbanos como para trayectos más largos. Su diseño y su estética deportiva la convierten en una opción destacada dentro de su categoría.</p>
+    <p><strong style="color:#2471cf">Marca:</strong> Bajaj</p>
+    <p><strong style="color:#2471cf">Modelo:</strong> Pulsar N250</p>
+    <p><strong style="color:#2471cf">Año:</strong> 2025</p>
+    <p><strong style="color:#2471cf">Cilindrada:</strong> 250 cc</p>
+    <p><strong style="color:#2471cf">Transmisión:</strong> Manual de 5 velocidades</p>
+    <h2>Alumno</h2>
+    <p><strong style="color:#cc2727">Práctica-Examen 3</strong></p>
+    <p><strong style="color:#cc2727">Nombre:</strong> Carlos Enrique Olmos Cardenas</p>
+    <p><strong style="color:#cc2727">Matrícula:</strong> 25000191</p>
+    <p><strong style="color:#cc2727">Grado-Grupo:</strong> IME 1E</p>
+  </section>
+
+  <section id="empresa">
+    <h2>Bajaj</h2>
+    <img src="logo.png" alt="Mi moto" style="display:block; margin:auto; width:470px;">
+     
+    <div class="card">
+    <h3>Acerca de la empresa</h3>
+    <p>Fundada en el año 1945 por Jamnalal Bajaj, aunque obtuvo la licencia para producir y fabricar sus propias motos hasta 1959, por lo que desde aquí en adelante empezó a tener una importante participación y se ha posicionado actualmente como una de las tres mejores marcas de motocicletas.</p>
+  </div>
+
+  <div class="card">
+    <h3>Misión</h3>
+    <p>Satisfacer las necesidades de trasnporte de los clientes ofreciéndoles un servicio de calidad, seguridad y confianza.</p>
+  </div>
+
+  <div class="card">
+    <h3>Visión</h3>
+    <p>Ser una empresa altamente reconocida por sus clientes por ofrecer además de un servicio, un valor agregado por los valores en los que creen y son de su enfoque.</p>
+  </div>
+  
+  <div class="card">
+    <h3>Ubicación (Sucursal)</h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.4910572559947!2d-101.41701981425288!3d20.95395161354776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b9d45b825a5fb%3A0x6c77036e4e5d5d01!2sBajaj%20Silao%20Oficial!5e0!3m2!1ses!2smx!4v1763619055944!5m2!1ses!2smx" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </section> 
+  
+   <section id="levantamiento de maquinaria">
+    <h2>Levantamiento de Maquinaria</h2>
+
+    <!-- FOTO PRINCIPAL DE LA MOTO -->
+    <img src="mapa.png" alt="Moto completa" style="display:block; margin:auto; width:550px;">
+
+    <!-- DATOS GENERALES DE LA MÁQUINA -->
+    <h3>Datos Generales</h3>
+    <p><strong>Nombre del equipo:</strong> Motocicleta Pulsar N250</p>
+    <p><strong>Marca:</strong> Bajaj</p>
+    <p><strong>Modelo:</strong> 2025</p>
+
+    <br>
+
+    <!-- TABLA DE CARACTERÍSTICAS DEL MOTOR -->
+    <h3>1. Sistema de Motor</h3>
+    <table border="1" style="width:100%; border-collapse:collapse;">
+        <tr>
+            <th>Característica</th>
+            <th>Descripción</th>
+            <th>Foto</th>
+        </tr>
+        <tr>
+            <td>Tipo de motor</td>
+            <td>Monocilíndrico 249.07 cc, SOHC, 4 tiempos</td>
+            <td><img src="motor.webp" alt="Motor" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Filtro de aceite</td>
+            <td>Original Bajaj</td>
+            <td><img src="filtroaceite.png" alt="Inyección" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Colador de aceite del motor</td>
+            <td>Original Bajaj</td>
+            <td><img src="cedazo.jpg" alt="Encendido" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Bujías</td>
+            <td>Bujía Champion RER6YCA</td>
+            <td><img src="bujía.jfif" alt="Encendido" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Filtro de aire</td>
+            <td>Original Bajaj</td>
+            <td><img src="filtroaire.jpg" alt="Encendido" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Tubo de combustible</td>
+            <td>Original Bajaj</td>
+            <td><img src="tubos.webp" alt="Encendido" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Válvulas</td>
+            <td>Original Bajaj</td>
+            <td><img src="valvulas.webp" alt="Encendido" style="width:120px;"></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- TABLA SISTEMA ELÉCTRICO -->
+    <h3>2. Sistema Eléctrico</h3>
+    <table border="1" style="width:100%; border-collapse:collapse;">
+        <tr>
+            <th>Característica</th>
+            <th>Descripción</th>
+            <th>Foto</th>
+        </tr>
+        <tr>
+            <td>Batería</td>
+            <td>12V 8Ah Mf</td>
+            <td><img src="bateria.jpg" alt="Batería" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>ECU</td>
+            <td>Unidad de control electrónico para gestión del motor</td>
+            <td><img src="ecu.jpg" alt="ECU" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Iluminación</td>
+            <td>Faro, stop y direccionales LED</td>
+            <td><img src="iluminacion.jpg" alt="Luces" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Conectividad</td>
+            <td>Cables, arneses y conectores eléctricos</td>
+            <td><img src="conect.webp" alt="Luces" style="width:120px;"></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- TABLA SISTEMA DE FRENO -->
+    <h3>3. Chasis</h3>
+    <table border="1" style="width:100%; border-collapse:collapse;">
+        <tr>
+            <th>Característica</th>
+            <th>Descripción</th>
+            <th>Foto</th>
+        </tr>
+        <tr>
+            <td>Chasis</td>
+            <td>Tubular con cuna abierta</td>
+            <td><img src="chasis.jpg" alt="Freno delantero" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Tablero</td>
+            <td>Digital full LED</td>
+            <td><img src="tablero.jpg" alt="Freno delantero" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Freno delantero</td>
+            <td>Disco 300mm(Doble canal)</td>
+            <td><img src="frenodel.webp" alt="Freno delantero" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Freno trasero</td>
+            <td>Disco 230mm</td>
+            <td><img src="frenotras.jpg" alt="Freno delantero" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Llanta delantera</td>
+            <td>100/80-17,52P, Tubeless, PSI:25</td>
+            <td><img src="llanta.webp" alt="Freno delantero" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Llanta trasera</td>
+            <td>100/80-17,52P, Tubeless, PSI:28</td>
+            <td><img src="llanta.webp" alt="Freno trasero" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Suspensión delantera</td>
+            <td>Hidráulica, Telescópica Vertical,130mm recorrido</td>
+            <td><img src="sus.jpg" alt="Suspensión delantera" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Suspensión trasera</td>
+            <td>Mono Suspensión con Nitrox</td>
+            <td><img src="tras.jpg" alt="Suspensión trasera" style="width:120px;"></td>
+        </tr>
+        <tr>
+            <td>Cadena y engrane de tracción</td>
+            <td>Original Bajaj</td>
+            <td><img src="caden.jpg" alt="Suspensión trasera" style="width:120px;"></td>
+        </tr>
+    </table>
+
+</section>
+
+  <section id="mantenimiento preventivo">
+    <h2>Mantenimiento Preventivo</h2>
+    
+    <table>
+      <tr><th>Componente</th><th>Código</th><th>¿Qué hacer?</th><th>Frecuencia</th>
+      <tr><td>Aceite y filtro de aceite del motor</td><td>AyFA</td><td><button onclick="abrirModal('cambiarAceite')">Cambiar</button></td><td>Cada servicio o cada 5,000km/6 meses</td>
+      <tr><td>Colador de aceite de motor</td><td>CdA</td><td><button onclick="abrirModal('lubricarCadena')">Lubricar</button></td><td>Cada 10,000km</td>
+      <tr><td>Filtro de aire</td><td>FdA</td><td><button onclick="abrirModal('cambiarFiltroAire')">Cambiar</button></td><td>Cada 20,000km o cada año</td>
+      <tr><td>Bujías</td><td>Buj</td><td><button onclick="abrirModal('bujías')">Limpiar y ajustar</button></td><td>Cada 20,000km o cada año</td>
+      <tr><td>Tubo de combustible</td><td>Tbc</td><td><button onclick="abrirModal('tubocomb')">Revisar y cambiar</button></td><td>Cada 20,000km o cada año</td>
+      <tr><td>Ajuste de válvulas</td><td>AdV</td><td><button onclick="abrirModal('válvulas')">Verificar y ajustar</button></td><td>Cada 20,000km o cada año</td>
+      <tr><td>Cadena y engrane de tracción</td><td>CET</td><td><button onclick="abrirModal('caden')">Limpiar y ajustar</button></td><td>Cada 5,000km o cada 6 meses</td>
+      <tr><td>Frenos</td><td>Fns</td><td><button onclick="abrirModal('frenos')">Revisar y cambiar</button></td><td>Cada 5,000km o cada 6 meses</td>
+      <tr><td>Líquido de frenos</td><td>LdF</td><td><button onclick="abrirModal('liqfreno')">Rellenar o remplazar</button></td><td>Cada 15,000km o cada 18 meses</td>
+      <tr><td>Frenos de disco</td><td>FdD</td><td><button onclick="abrirModal('frenodisco')">Revisar</button></td><td>Cada 5,000km o cada 6 meses</td>
+      <tr><td>Batería</td><td>Bat</td><td><button onclick="abrirModal('batería')">Revisar y ajustar</button></td><td>Cada 5,000km o cada 6 meses</td>
+      <tr><td>Giro libre del manubrio</td><td>GLM</td><td><button onclick="abrirModal('manu')">Revisar y ajustar</button></td><td>Cada 5,000km o cada 6 meses</td>
+      <tr><td>Barra de suspensión, baleros y cubrepolvos</td><td>SBC</td><td><button onclick="abrirModal('barra')">Revisar, limpiar o cambiar</button></td><td>Cada 10,000km o cada año</td>
+      <tr><td>Tornillos/tuercas</td><td>TT</td><td><button onclick="abrirModal('tornillos')">Revisar y ajustar</button></td><td>Cada 5,000km o cada 6 meses</td>
+      <tr><td>Palancas de freno y embrague</td><td>FyE</td><td><button onclick="abrirModal('palancas')">Lubricar</button></td><td>Cada 5,000km o cada 6 meses</td>
+      <tr><td>Perno pivote de pedal de freno</td><td>PPF</td><td><button onclick="abrirModal('perno')">Revisar, lubricar cambiar</button></td><td>Cada 5,000km o cada 6 meses</td>
+    </table>
+     <h2>Recomendaciones diarias</h2>
+     <table>
+      <tr><th>Comprobación</th><th>Procedimiento</th>
+      <tr><td>Aceite de motor</td><td>Comprobar nivel y añadir si es necesario.</td>
+      <tr><td>Combustible</td><td>Asegurar que sea suficiente.</td>
+      <tr><td>Luces, direccionales, luz trasera</td><td>Comprobar si funcionan correctamente.</td>
+      <tr><td>Frenos</td><td>Comprobar si funcionan correctamente.</td>
+      <tr><td>Cadena de transmisión</td><td>Comprobar el estado de la corona y del piñon de transmisión y la holgura de la cadena. Si es necesario limpiar, ajustar y engrasar la cadena.</td>
+      <tr><td>Cauchos</td><td>Revisar la presión y commpletar si es necesario.</td>
+      <tr><td>Acelerador</td><td>Revisa que funcione correctamente.</td>
+    </table>
+    <h2>Formato de Mantenimiento Preventivo</h2>
+
+  <p><strong>Descargar documento:</strong></p>
+
+  <a href="mantenimiento_preventivo.pdf" download style="
+      padding:10px 15px;
+      background:#05436e;
+      color:white;
+      text-decoration:none;
+      border-radius:5px;
+    ">
+    📄 Descargar PDF
+  </a>
+  </section>
+
+   <section id="mantenimiento predictivo">
+    <h2>Mantenimiento Predictivo</h2>
+    
+    <table>
+      <tr><th>Componente a evaluar</th><th>Dipositivo</th><th>Función</th><th>Imagen</th><th>Frecuencia</th>
+      <tr><td>Sistema eléctrico(Voltaje, CCA, carga)</td><td>BST-500/FOXWELL BT100</td><td>Predecir vida de batería o regulador defectuoso</td><td><img src="fox.jfif" alt="Suspensión trasera" style="width:120px;"></td><td>Cada 6 meses o antes de un viaje largo</td>
+      <tr><td>Motor,ECU</td><td>Scanner OBD2/Autel MotoDiag</td><td>Predecir fallas electrónicas</td><td><img src="OBD2.jfif" alt="Suspensión trasera" style="width:120px;"></td><td>Cada 10,000km/1 año</td>
+      <tr><td>Motor, frenos, eléctrico(temperatura)</td><td>FLIR E4/Hti-Xintai HT-A2</td><td>Saber si hay sobrecalentamiento o fricción</td><td><img src="flir.jfif" alt="Suspensión trasera" style="width:120px;"></td><td>Cada 5,000km/6 meses</td>
+      <tr><td>Suspensión</td><td>Fluke Vibration Meter</td><td>Revisar los rodamientos, balanceo y cadena</td><td><img src="fluke.jfif" alt="Suspensión trasera" style="width:120px;"></td><td>Cada 10,000km/1 año</td>
+      <tr><td>Motor y escape</td><td>Ultraprobe 100</td><td>Revisar si falta lubricación o hay fugas</td><td><img src="100.jfif" alt="Suspensión trasera" style="width:120px;"></td><td>Cada 12,000km/26 meses o si hay ruidos anormales</td>
+      <tr><td>Motor(torque, potencia, mezcla)</td><td>DynoJet/Dynomet T-60</td><td>Predice fallas de inyección</td><td><img src="dyno.jfif" alt="Suspensión trasera" style="width:120px;"></td><td>Cada 2 años o después de modificaciones</td>
+      <tr><td>Llantas(desbalanceo)</td><td>Balanceadora</td><td>Revisar vibraciones y desgaste</td><td><img src="balance.jfif" alt="Suspensión trasera" style="width:120px;"></td><td>Cada año o al cambiar llantas</td>     
+  </table>
+  <h2>Formato de Mantenimiento Predictivo</h2>
+
+  <p><strong>Descargar documento:</strong></p>
+
+  <a href="mantenimiento_predictivo.pdf" download style="
+      padding:10px 15px;
+      background:#05436e;
+      color:white;
+      text-decoration:none;
+      border-radius:5px;
+    ">
+    📄 Descargar PDF
+  </a>
+      </section>
+
+  <section id="Registro">
+    <h2>Registro de mantenimiento</h2>
+    <p>Usa esta tabla para registrar tus mantenimientos realizados:</p>
+    <table>
+      <tr><th>Fecha</th><th>Kilometraje</th><th>Actividad</th><th>Observaciones</th></tr>
+      <tr><td>15/10/2025</td><td>489 km</td><td>Servicio en Agencia</td><td>Cambio de aceite y revisión general</td></tr>
+      <tr><td>28/10/2025</td><td>624 km</td><td>Ajuste de tornillos</td><td>Apretar tornillos que estaban desajustados</td></tr>
+      <tr><td>10/11/2025</td><td>900 km</td><td>Rellenar de aire las llantas</td><td>28PSI delantera y 30PSI trasera</td></tr>
+      <tr><td>19/11/2025</td><td>956 km</td><td>Rellenar líquido de frenos</td><td>Sonaba a la hora de frenar, se relleno con liquido y se soluciono</td></tr>
+      <tr><td>24/11/2025</td><td>1021 km</td><td>Lubricación de cadena</td><td>Ya no suena la cadena despues de la lubricación</td></tr>
+    </table>
+    <h2>Stock</h2>
+    <table>
+      <tr><th>Pieza</th><th>Especificaciones</th><th>Proveedor</th><th>Precio</th><th>Imagen</th></tr>
+      <tr><td>Aceite</td><td>BGO SAE 20W-50API</td><td>Walmart o AutoZone</td><td>$120 y $240</td><td><img src="aceite.webp" alt="Suspensión trasera" style="width:120px;"></td></tr>
+      <tr><td>Bujías</td><td>Bujía Champion RER6YCA</td><td>AutoZone o agencia Bajaj</td><td>$50</td><td><img src="buj.webp" alt="Suspensión trasera" style="width:120px;"></td></tr>
+      <tr><td>Liquído de frenos</td><td>DOT4 o mayor</td><td>Amazon</td><td>$235</td><td><img src="liq.webp" alt="Suspensión trasera" style="width:120px;"></td></tr>
+      <tr><td>Filtro de Aire</td><td>Original Bajaj</td><td>Motos Premium</td><td>$355</td><td><img src="filtroaire.jpg" alt="Suspensión trasera" style="width:120px;"></td></tr>
+      <tr><td>Filtro de Aceite</td><td>Original Bajaj</td><td>Mundimotos México</td><td>$100</td><td><img src="filtroaceite.png" alt="Suspensión trasera" style="width:120px;"></td></tr>
+      <tr><td>Colador de aceite de motor</td><td>Original Bajaj</td><td>Bajaj Matriz</td><td>$65</td><td><img src="cedazo.jpg" alt="Suspensión trasera" style="width:120px;"></td></tr>
+      <tr><td>Batería</td><td>Original Bajaj</td><td>Bajaj Matriz</td><td>$2500</td><td><img src="bateria.jpg" alt="Suspensión trasera" style="width:120px;"></td></tr>
+      <tr><td>Llantas</td><td>Promoto Platino</td><td>MotoMundo o Mercado Libre</td><td>$1600 par</td><td><img src="llanta.webp" alt="Suspensión trasera" style="width:120px;"></td></tr>
+    </table>
+  </section>
+
+  <section id="mantenimiento correctivo">
+  <h2>Mantenimiento Correctivo</h2>
+  <p><strong style="color:#eb1ecc">Posibles Fallas</strong></p>
+    <p><strong style="color:#2471cf">  1. Fallas del motor</strong></p>
+    <table>
+      <tr><th>Problema</th><th>Causa probable</th><th>Solución</th>
+      <tr><td>Moto no enciende</td><td>Batería baja/bujía sucia</td><td>Cargar batería o cambiarla. Limpiar o remplazar bujía.</td>
+      <tr><td>Marcha inestable</td><td>Filtro de aire sucio</td><td>Sustituir el filtro de aire</td></tr>
+      <tr><td>Pérdida de potencia</td><td>Inyector sucio</td><td>Limpieza del inyector</td></tr>
+    </table>
+    <p><strong style="color:#2471cf">  2. Sistema eléctrico</strong></p>
+    <table>
+      <tr><th>Problema</th><th>Causa probable</th><th>Solución</th>
+      <tr><td>Faro o direccionales no funcionan</td><td>Fusible quemado</td><td>Cambiar fusible</td>
+      <tr><td>Tablero no enciende</td><td>Falla en conexiones o batería agotada</td><td>Revisar y apretar conexiones, o cargar batería</td></tr>
+    </table>
+    <p><strong style="color:#2471cf">  3. Chasis</strong></p>
+    <table>
+      <tr><th>Problema</th><th>Causa probable</th><th>Solución</th>
+      <tr><td>Ruido al frenar</td><td>Balatas desgastadas o sucias</td><td>Cambiar balatas o limpiar disco</td>
+      <tr><td>Moto inestable</td><td>Mono-shock sin presión</td><td>Ajustar o remplazar amortiguador</td></tr>
+      <tr><td>Golpeteo en suspensión delantera</td><td>Falta de aceite en la barra</td><td>Remplazar aceite de horquillas</td></tr>
+    </table>
+    <p><strong style="color:#2471cf">  4. Transmisión</strong></p>
+    <table>
+      <tr><th>Problema</th><th>Causa probable</th><th>Solución</th>
+      <tr><td>Cadena hace ruido</td><td>Falta de lubricación</td><td>Limpiar y lubricar cadena</td>
+      <tr><td>Golpes al cambiar de velocidades</td><td>Holgura incorrecta del embrague</td><td>Ajuste del chicote</td></tr>
+    </table>
+    <p><strong style="color:#e15819">Indicadores para aplicar mantenimiento correctivo</strong></p>
+    <p>  1. Testigos del tablero encendidos</p>
+    <p>  2. Ruidos anormales en motor o transmisión</p>
+    <p>  3. Olor a quemado o fuga de aceite</p>
+    <p>  4. Temperatura anormalmente alta</p>
+    <p>  5. Pérdida de potencia gradual</p>
+    <p>  6. Vibraciones inusuales</p>
+    <h2>Formato para Mantenimiento Correctivo</h2>
+
+    <p><strong>Descargar documento:</strong></p>
+
+  <a href="mantenimiento_correctivo.pdf" download style="
+      padding:10px 15px;
+      background:#05436e;
+      color:white;
+      text-decoration:none;
+      border-radius:5px;
+    ">
+    📄 Descargar PDF
+  </a>
+  </section>
+
+  <section id="calendario">
+    <h2>Calendarización</h2>
+    <!-- Botones de navegación de mes -->
+  <div style="text-align:center; margin-bottom:10px;">
+    <button id="prev-month">« Mes anterior</button>
+    <button id="next-month">Mes siguiente »</button>
+  </div>
+
+  <!-- Contenedor del calendario -->
+  <div id="calendar-container" style="max-width:500px; margin:auto;"></div>
+
+  <!-- Glosario de siglas -->
+  <div id="glosario" style="max-width:500px; margin:auto; margin-top:20px;">
+    <h3>Glosario de siglas</h3>
+    <ul id="lista-glosario"></ul>
+  </div>
+</section>
+
+<script>
+  // Siglas y su significado
+  const glosario = {
+    "Srv": "Servicio en Agencia",
+    "CdA": "Cambio de Aceite",
+    "LcC": "Lubricación de Cadena",
+    "GyL": "Gasolina y revisión de llantas",
+    "FdA": "Filtro de aire-Limpieza",
+    "Buj": "Revisar bujía",
+    "Bat": "Revisar batería",
+  };
+
+  // Notas asignadas a fechas (puedes agregar más)
+  let notasCalendario = {
+    "2025-10-15": ["Srv"], 
+    "2026-03-15": ["Srv"],
+    "2026-09-15": ["Srv"],
+    "2026-01-22": ["CdA"],
+    "2026-05-22": ["CdA"],
+    "2025-11-20": ["LcC"],
+    "2025-12-20": ["LcC"],
+    "2026-01-20": ["LcC"],
+    "2026-02-20": ["LcC"],
+    "2026-04-20": ["LcC"],
+    "2026-05-20": ["LcC"],
+    "2025-09-26": ["GyL"],
+    "2025-10-03": ["GyL"],
+    "2025-10-10": ["GyL"],
+    "2025-10-17": ["GyL"],
+    "2025-10-24": ["GyL"],
+    "2025-10-31": ["GyL"],
+    "2025-11-07": ["GyL"],
+    "2025-11-14": ["GyL"],
+    "2025-11-21": ["GyL"],
+    "2025-11-28": ["GyL"],
+    "2025-12-05": ["GyL"],
+    "2025-12-12": ["GyL"],
+    "2025-12-19": ["GyL"],
+    "2025-12-26": ["GyL"],
+    "2026-01-02": ["GyL"],
+    "2026-01-09": ["GyL"],
+    "2026-01-16": ["GyL"],
+    "2026-01-23": ["GyL"],
+    "2026-01-30": ["GyL"],
+    "2026-02-06": ["GyL"],
+    "2025-12-15": ["FdA"],
+    "2026-02-15": ["FdA"],
+    "2026-02-17": ["Buj"],
+    "2025-12-20": ["Bat"],
+    "2026-03-20": ["Bat"],
+  };
+
+  let fechaActual = new Date();
+
+  // Función para generar el calendario
+  function generarCalendario(fecha){
+    const container = document.getElementById('calendar-container');
+    container.innerHTML = '';
+
+    const mes = fecha.getMonth();
+    const anio = fecha.getFullYear();
+    const meses = [
+      "Enero","Febrero","Marzo","Abril","Mayo","Junio",
+      "Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"
+    ];
+
+    const primerDia = new Date(anio, mes, 1).getDay();
+    const diasMes = new Date(anio, mes+1, 0).getDate();
+
+    // Título del mes
+    const titulo = document.createElement('h3');
+    titulo.textContent = meses[mes] + ' ' + anio;
+    titulo.style.textAlign = 'center';
+    container.appendChild(titulo);
+
+    // Tabla del calendario
+    const tabla = document.createElement('table');
+    tabla.style.width = '100%';
+    tabla.style.borderCollapse = 'collapse';
+    tabla.style.textAlign = 'center';
+
+    // Encabezado de días
+    const encabezado = document.createElement('tr');
+    const diasSemana = ['Dom','Lun','Mar','Mié','Jue','Vie','Sáb'];
+    diasSemana.forEach(dia => {
+      const th = document.createElement('th');
+      th.textContent = dia;
+      th.style.border = '1px solid #0f070b';
+      th.style.padding = '5px';
+      th.style.backgroundColor = '#8a9511';
+      th.style.color = 'white';
+      encabezado.appendChild(th);
+    });
+    tabla.appendChild(encabezado);
+
+    let fila = document.createElement('tr');
+
+    // Espacios vacíos antes del primer día
+    for(let i=0; i<primerDia; i++){
+      const td = document.createElement('td');
+      td.style.border = '1px solid #0f070b';
+      td.style.padding = '5px';
+      fila.appendChild(td);
+    }
+
+    for(let dia=1; dia<=diasMes; dia++){
+      if(fila.children.length === 7){
+        tabla.appendChild(fila);
+        fila = document.createElement('tr');
+      }
+
+      const td = document.createElement('td');
+      td.style.border = '1px solid #0f070b';
+      td.style.padding = '5px';
+      td.style.height = '60px';
+      td.style.verticalAlign = 'top';
+      td.style.position = 'relative';
+      td.style.cursor = 'pointer';
+      td.textContent = dia;
+
+      const fechaStr = `${anio}-${String(mes+1).padStart(2,'0')}-${String(dia).padStart(2,'0')}`;
+
+      // Mostrar siglas si existen
+      if(notasCalendario[fechaStr]){
+        const notasDiv = document.createElement('div');
+        notasDiv.style.fontSize = '12px';
+        notasDiv.style.color = 'red';
+        notasDiv.innerHTML = notasCalendario[fechaStr].join('<br>');
+        td.appendChild(notasDiv);
+      }
+
+      // Evento para agregar nota usando sigla
+      td.addEventListener('click', () => {
+        const siglasDisponibles = Object.keys(glosario).join(", ");
+        const nota = prompt(`Agregar nota para ${fechaStr}. Usa una de estas siglas: ${siglasDisponibles}`);
+        if(nota && glosario[nota]){
+          if(!notasCalendario[fechaStr]){
+            notasCalendario[fechaStr] = [];
+          }
+          notasCalendario[fechaStr].push(nota);
+          generarCalendario(fechaActual);
+        } else if(nota){
+          alert("Sigla no reconocida. Revisa el glosario.");
+        }
+      });
+
+      fila.appendChild(td);
+    }
+
+    // Rellenar la última fila
+    while(fila.children.length < 7){
+      const td = document.createElement('td');
+      td.style.border = '1px solid #0f070b';
+      td.style.padding = '5px';
+      fila.appendChild(td);
+    }
+    tabla.appendChild(fila);
+    container.appendChild(tabla);
+  }
+
+  // Botones de navegación
+  document.getElementById('prev-month').addEventListener('click', () => {
+    fechaActual.setMonth(fechaActual.getMonth() - 1);
+    generarCalendario(fechaActual);
+  });
+
+  document.getElementById('next-month').addEventListener('click', () => {
+    fechaActual.setMonth(fechaActual.getMonth() + 1);
+    generarCalendario(fechaActual);
+  });
+
+  // Función para mostrar glosario
+  function mostrarGlosario(){
+    const ul = document.getElementById('lista-glosario');
+    ul.innerHTML = "";
+    for(const sigla in glosario){
+      const li = document.createElement('li');
+      li.textContent = `${sigla}: ${glosario[sigla]}`;
+      ul.appendChild(li);
+    }
+  }
+  
+  // Inicializar calendario y glosario
+  generarCalendario(fechaActual);
+  mostrarGlosario();
+</script>
+  </section>
+
+  <script>
+    function mostrar(id) {
+      document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+
+<!-- =============== MODAL UNIVERSAL ================== -->
+<div id="modal" class="modal">
+  <div class="modal-contenido">
+    <span class="cerrar" onclick="cerrarModal()">&times;</span>
+    <h2 id="modal-titulo"></h2>
+    <p id="modal-texto"></p>
+  </div>
+</div>
+
+<style>
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+  }
+  .modal-contenido {
+    background: white;
+    width: 60%;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    animation: aparecer 0.3s ease;
+  }
+  .cerrar {
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  @keyframes aparecer {
+    from { opacity: 0; transform: scale(0.90); }
+    to { opacity: 1; transform: scale(1); }
+  }
+</style>
+
+<script>
+  const instrucciones = {
+    cambiarAceite: {
+      titulo: "Cambio de Aceite y Filtro",
+      texto: `
+1.	Calienta la moto 2–3 minutos y apágala. Esto ayuda a que el aceite fluya mejor.<br>
+2.	Coloca la moto sobre su soporte central en superficie nivelada y en posición vertical.<br>
+3.	Coloca un recipiente adecuado bajo el cárter para recoger aceite usado.<br>
+4.	Afloja con la llave adecuada el tornillo de drenaje del cárter. Espera a que todo el aceite fluya.<br>
+5.	Retira el filtro de aceite usado con la llave adecuada. Desecha el filtro usado de forma ecológica.<br>
+6.	Coloca un filtro nuevo (el indicado por el fabricante) con su sello, enrosca correctamente.<br>
+7.	Vuelve a colocar el tornillo de drenaje, ajústalo con torque recomendado (o con firmeza, si no tienes torque-llave).<br>
+8.	Llena con aceite nuevo del grado recomendado por fábrica.<br> 
+9.	Espera unos minutos, luego revisa el nivel con la mirilla de aceite/varilla medidora: debe quedar entre la marca superior e inferior.<br>
+10.	Enciende la moto por 1 minuto, apaga y revisa debajo del cárter si hay fugas. Si todo está bien, queda listo.`
+    },
+
+    lubricarCadena: {
+      titulo: "Lubricación de la Cadena",
+      texto: `
+1. Levanta la rueda trasera con un soporte.<br>
+2. Limpia la cadena con desengrasante y brocha.<br>
+3. Seca con un paño limpio.<br>
+4. Rocía lubricante especial para cadena mientras giras la rueda.<br>
+5. Evita que caiga lubricante en la llanta o disco de freno.<br>
+6. Verifica la tensión de la cadena.`
+    },
+
+    bujías: {
+      titulo: "Limpiar y ajustar bujías",
+      texto: `
+1. Apaga la moto y espera que el motor esté frío para evitar quemaduras.<br>
+2. Retira el asiento / carcasa necesaria para acceder a la bujía. Desconecta el cable de la bobina de encendido.<br>
+3. Con una llave de bujías del tamaño adecuado, desenrosca la bujía con cuidado.<br>
+4. Inspecciona la bujía: busca carbón, hollín o desgaste. Si está muy sucia, límpiala con un cepillo suave o limpia-carburador. Si los electrodos están muy desgastados o corroídos, reemplázala por una nueva recomendada.<br>
+5. Verifica y ajusta la separación de electrodos con el calibre adecuado al valor especificado por fabricante.<br>
+6. Vuelve a colocar la bujía con su sello, sin sobreapretar (usa torque moderado). Reconecta el cable de la bobina.<br>
+7. Arranca la moto, verifica que encienda bien, sin titubeos y que no haya fugas.`
+    },
+
+    tubocomb: {
+      titulo: "Tubo de combustible",
+      texto: `
+1. Con la moto apagada y preferiblemente con el tanque de combustible con poca carga, trabaja en un área veintilada.<br>
+2. Inspecciona visualmente mangueras de combustible, abrazaderas, uniones y conexiones: revisa que no haya grietas, rigidez, desgaste o fugas.<br>
+3. Si la moto tiene filtro de combustible, retíralo y cambia por uno nuevo si está sucio o dañado.<br>
+4. Si cambias filtro o mangueras: montarlas nuevas, asegurando abrazaderas bien apretadas. Verifica que no haya fugas con el tanque parcialmente lleno.<br>
+5. Limpia cualquier derrame de gasolina inmediatamente.`
+    },
+
+    manu: {
+      titulo: "Manubrio",
+      texto: `
+1. Con la moto apagada y apoyada en soporte central, suelta manillar.<br>
+2. Gira manillar de un extremo a otro, siente si hay juegos, crujidos o resistencia irregular.<br>
+3. Si detectas holgura: revisa rolineras o rodamientos de dirección, aprieta tuercas de dirección o si están muy gastados, reemplaza.<br>
+4. Verifica que el manillar quede firme, sin juego, y que vuelva centrado fácilmente.`
+    },
+
+    barra: {
+      titulo: "Barra de suspensión, valeros y cubrepolvos",
+      texto: `
+1. Apaga la moto, colócala en soporte central.<br>
+2. Revisa visualmente horquilla delantera y mono-shock trasero: busca fugas de aceite, polvo, grietas o desgaste.<br>
+3. Verifica que los guardapolvos (cubrepolvos) estén intactos y no tengan rasgaduras. Si están rotos, reemplázalos.<br>
+4. Comprime suspensión delantera y trasera varias veces; debe moverse suave, sin crujidos o detenciones.<br>
+5. Si notas dureza excesiva, rebotes bruscos o fugas, lleva a taller para cambio de aceite de horquillas o repuestos (retenes, sellos).`
+    },
+
+    válvulas: {
+      titulo: "Ajuste de válvulas",
+      texto: `
+1. Asegúrate de que el motor esté completamente frío.<br>
+2. Quita asiento, tapas laterales y, si es necesario, el tanque de gasolina.<br>
+3. Quita la tapa de la culata<br>
+4. Coloca el motor en PMS (Punto Muerto Superior)<br>
+5. Ajusta la holgura si está incorrecta (0.08mm).<br>
+6. Arma todo nuevamente.<br>
+7. Arranca el motor y revisa que no existan ruidos metálicos anormales.`
+    },
+
+    liqfreno: {
+      titulo: "Liquído de freno(Rellenar o remplazar)",
+      texto: `
+1. Asegúrate de que el motor este apagado y frío.<br>
+2. Ubica el depósito de líquido de frenos: Delantero(sobre el manillar) y Trasero(Cerca del pedal de freno).<br>
+3. Limpia la tapa y alrededores.<br>
+4. Verifica el nivel del líquido: Debe estar entre las marcas MIN y MAX del depósito, observa también el color: si está muy oscuro o sucio, conviene cambiarlo..<br>
+5. Rellena si es necesario, utiliza el líquido DOT4.<br>
+6. Cierra el depósito, asegúrate de que la tapa y la junta queden firmes para evitar fugas.<br>
+7. Verifica que el freno este firme y limpia cualquier derrame`
+    },
+
+     frenos: {
+      titulo: "Frenos",
+      texto: `
+1. Estaciona la moto sobre un soporte firme, motor apagado y frío, y reúne las herramientas necesarias.<br>
+2. Localiza las pinzas de freno delantero y trasero y revisa el grosor de las pastillas; si quedan menos de 2mm, deben reemplazarse.<br>
+3. Revisa que los discos no tengan surcos profundos, deformaciones ni desgaste excesivo.<br>
+4. Afloja los tornillos de la pinza y retírala con cuidado, sin estirar la manguera.<br>
+5. Extrae las pastillas desgastadas y verifica que los pasadores y soportes estén en buen estado.<br>
+6. Inserta las nuevas pastillas, lubricando ligeramente los bordes metálicos, y vuelve a colocar la pinza sobre el disco, apretando los tornillos.<br>
+7. Presiona la maneta o pedal varias veces para que las pastillas se asienten y revisa que no haya fugas de líquido.<br>
+8. Comprueba que los discos giren libres y realiza una prueba de manejo para asegurarte de que el freno funciona correctamente.`
+    },
+
+    batería: {
+      titulo: "Revisión de Batería",
+      texto: `
+1. Estaciona la moto sobre un soporte firme y asegúrate de que el motor esté apagado.<br>
+2. Localiza la batería, normalmente debajo del asiento o de la tapa lateral.<br>
+3. Revisa el nivel de carga y el estado de los bornes: busca corrosión, conexiones flojas o cables dañados.<br>
+4. Si los bornes tienen corrosión, límpialos.<br>
+5. Ajusta los bornes asegurándote de que estén firmes, pero sin apretarlos demasiado.<br>
+6. Para reemplazar la batería, desconecta primero el borne negativo(-) y luego el positivo(+), retira la batería vieja e instala la nueva siguiendo el mismo orden inverso: primero positivo(+) y luego negativo(-).<br>
+7. Una vez instalada, comprueba que la moto arranca correctamente y que todas las luces y sistemas eléctricos funcionen.`
+    },
+
+    caden: {
+      titulo: "Ajuste de Cadena",
+      texto: `
+1. Estaciona la moto sobre un soporte firme y asegúrate de que el motor esté apagado.<br>
+2. Levanta la rueda trasera con un soporte.<br>
+3. Limpia la cadena con desengrasante y brocha.<br>
+4. Revisa visualmente el estado de la cadena y los piñones; busca eslabones rígidos, desgaste o dientes dañados.<br>
+5. Ajusta la tensión de la cadena usando los ajustadores del basculante trasero.<br>
+6. Asegúrate de que la rueda quede alineada con las marcas de referencia y aprieta los tornillos del eje trasero al torque recomendado.<br>
+7. Lubrica la cadena con grasa o aceite y realiza una prueba de manejo para asegurarte de que la tensión sea correcta.`
+    },
+
+    frenodisco: {
+      titulo: "Frenos de disco",
+      texto: `
+1. Estaciona la moto sobre un soporte firme, motor apagado, y localiza las pinzas y discos.<br>
+2. Revisa el grosor de las pastillas; si quedan menos de 2mm, deben reemplazarse.<br>
+3. Inspecciona los discos en busca de surcos, deformaciones, grietas o desgaste irregular.<br>
+4. Verifica que los tornillos de la pinza estén firmes, que no haya fugas y que la maneta/pedal esté firme.<br>
+5. Gira la rueda para confirmar que el disco gire libremente y realiza una prueba corta de manejo para asegurarte de que frena correctamente.`
+    },
+
+    perno: {
+      titulo: "Perno pivote de pedal de freno",
+      texto: `
+1. Estaciona la moto sobre un soporte firme y asegúrate de que el motor esté apagado.<br>
+2. Localiza el pedal de freno trasero y el perno pivote que lo sujeta al basculante o brazo de freno.<br>
+3. Verifica que el perno esté firme y sin juego excesivo; revisa que no tenga óxido o suciedad acumulada.<br>
+4. Si es necesario, retira el perno, limpia bien la zona y aplica un poco de grasa lubricante en el eje y en el punto de contacto del pedal.<br>
+5. Vuelve a colocar el perno, apriétalo correctamente y prueba que el pedal se mueva suavemente sin juego lateral excesivo.`
+    },
+
+    tornillos: {
+      titulo: "Tornillos y tuercas",
+      texto: `
+1. Con la moto apagada y estabilizada, revisa todos los tornillos visibles: chasis, guardabarros, tapas, manillar, basculante, frenos, suspensión, llantas, soportes.<br>
+2. Utiliza llaves adecuadas; aprieta ligeramente todos los tornillos/niveles, pero evita sobreapretar.<br>
+3. Verifica especialmente tornillos de frenos, suspensión, ruedas y motor.`
+    },
+
+    palancas: {
+      titulo: "Palancas de freno y embrague",
+      texto: `
+1. Apaga la moto.<br>
+2. Localiza las palancas (freno delantero, embrague, pedal trasero). Limpia con un paño seco si hay polvo o suciedad.<br>
+3. Aplica una gota pequeña de lubricante multiuso (penetrante o grasa ligera) en los puntos de pivote — evita exceso que caiga sobre discos de freno o superficies de fricción.<br>
+4. Mueve la palanca varias veces para que el lubricante penetre. Limpia exceso. Verifica que la palanca se mueva de forma suave y retroceda bien.`
+    },
+
+
+    cambiarFiltroAire: {
+      titulo: "Cambio de Filtro de Aire",
+      texto: `
+1. Apaga la moto y espera que el motor esté frío.<br>
+2. Localiza la caja del filtro de aire (normalmente lateral o debajo del asiento).<br>
+3. Abre la tapa con cuidado, sin dañar sellos u “O-rings”.<br>
+4. Retira el filtro y observa su estado: si está muy sucio, con polvo compactado, insectos o residuos, reemplázalo; si solo hay polvo leve, puedes limpiarlo con aire comprimido o soplarlo, y volver a instalar.<br>
+5. Limpia el interior de la caja del filtro de aire con paño limpio<br>
+6. Coloca el filtro (nuevo o limpio), asegurándote de que el sello quede bien asentado. Cierra la tapa correctamente.<br>
+5. erifica que no queden fugas en la tapa o juntas.`
+    }
+  };
+
+  function abrirModal(accion) {
+    document.getElementById("modal-titulo").innerHTML = instrucciones[accion].titulo;
+    document.getElementById("modal-texto").innerHTML = instrucciones[accion].texto;
+    document.getElementById("modal").style.display = "block";
+  }
+
+  function cerrarModal() {
+    document.getElementById("modal").style.display = "none";
+  }
+</script>
+
+  
+</body>
+</html>
